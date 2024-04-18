@@ -1,0 +1,24 @@
+﻿Nome;Tipo;Largura;Decimais;Valores;Rótulo;Omisso;Colunas;Alinhar;Medida;Papel
+Random_ID;Numérico;8;2;Nenhum;Unique respondent identifier;Nenhum;8;Direito;Escala;Entrada
+WORRIED;Sequência de caracteres;2;0;Nenhum;Worried you would not have enough food to eat because of a lack of money or other resources;Nenhum;8;Esquerdo;Nominal;Entrada
+HEALTHY;Sequência de caracteres;1;0;Nenhum;Unable to eat healthy and nutritious food because of a lack of money or other resources;Nenhum;8;Esquerdo;Nominal;Entrada
+FEWFOOD;Sequência de caracteres;1;0;Nenhum;Ate only a few kinds of foods because of a lack of money or other resources;Nenhum;8;Esquerdo;Nominal;Entrada
+SKIPPED;Sequência de caracteres;1;0;Nenhum;Skipped a meal because there was not enough money or other resources to get food;Nenhum;8;Esquerdo;Nominal;Entrada
+ATELESS;Sequência de caracteres;1;0;Nenhum;Ate less than you thought you should because of a lack of money or other resources;Nenhum;8;Esquerdo;Nominal;Entrada
+RUNOUT;Sequência de caracteres;1;0;Nenhum;Household ran out of food because of a lack of money or other resources;Nenhum;8;Esquerdo;Nominal;Entrada
+HUNGRY;Sequência de caracteres;1;0;Nenhum;Hungry but did not eat because there was not enough money or other resources for food?;Nenhum;8;Esquerdo;Nominal;Entrada
+WHLDAY;Sequência de caracteres;1;0;Nenhum;Went without eating for a whole day because of a lack of money or other resources?;Nenhum;8;Esquerdo;Nominal;Entrada
+wt;Numérico;8;2;Nenhum;Post-stratification sampling weights;Nenhum;8;Direito;Escala;Entrada
+year;Numérico;8;0;{1, 1}...;Year when the GWP was administered in the country;Nenhum;8;Direito;Nominal;Entrada
+N_adults;Sequência de caracteres;2;0;Nenhum;Number of adults 15 years of age and above in household;Nenhum;8;Esquerdo;Nominal;Entrada
+N_child;Sequência de caracteres;2;0;Nenhum;Number of children under 15 years of age in household;Nenhum;8;Esquerdo;Nominal;Entrada
+Raw_score;Numérico;8;2;Nenhum;Sum of Affirmative responses to FIES questions;Nenhum;8;Direito;Escala;Entrada
+Raw_score_par;Numérico;8;2;Nenhum;Estimated person parameters using the Rasch model;Nenhum;8;Direito;Escala;Entrada
+Raw_score_par_error;Numérico;8;2;Nenhum;Estimated person parameter errors using the Rasch model;Nenhum;8;Direito;Escala;Entrada
+Prob_Mod_Sev;Numérico;8;2;Nenhum;Probability of being moderately or severely food insecure;Nenhum;8;Direito;Escala;Entrada
+Prob_sev;Numérico;8;2;Nenhum;Probability of being severely food insecure;Nenhum;8;Direito;Escala;Entrada
+Age;Numérico;8;2;Nenhum;Age of the respondent;Nenhum;8;Direito;Escala;Entrada
+Education;Numérico;8;0;{1, Elementary_or_less}...;Education of the respondent;Nenhum;8;Direito;Nominal;Entrada
+Area;Numérico;8;0;{1, (Refused)}...;Area;Nenhum;8;Direito;Nominal;Entrada
+Gender;Numérico;8;0;{1, Male}...;Gender of the respondent;Nenhum;8;Direito;Nominal;Entrada
+Income;Numérico;8;0;{1, Poorest_20%}...;Income quintile;Nenhum;8;Direito;Nominal;Entrada
